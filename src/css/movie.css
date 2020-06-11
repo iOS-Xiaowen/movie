@@ -1,0 +1,12 @@
+.box {
+    box-shadow: 1px 1px 5px #ddd;
+    background-color: #eee;
+    width: 160px;
+    height: 280px;
+    margin: 10px;
+    transition: all 0.3s;
+}
+
+.box:hover {
+    transform: rotate(1deg) scale(1.03);
+}

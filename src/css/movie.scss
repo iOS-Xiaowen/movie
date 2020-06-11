@@ -1,0 +1,26 @@
+.box {
+    box-shadow: 2px 2px 6px #aaa;
+    background-color: #eee;
+    width: 180px;
+    height: 315px;
+    margin: 10px;
+    transition: all 0.3s;
+
+    &:hover {
+        transform: rotate(-1deg) scale(1.03);
+
+        // &:nth-child(odd) {
+        //     transform: rotate(1deg) scale(1.03);
+        // }
+        // &:nth-child(even) {
+        //     transform: rotate(-1deg) scale(1.03);
+        // }
+    }
+    .score {
+        color: #F9D514;
+        font-size: 11px;
+        text-align: center;
+        line-height: 20px;
+        height: 20px;
+    }
+}

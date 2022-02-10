@@ -36,7 +36,7 @@
     ]
   },
   "devDependencies": {
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "sass-loader": "^8.0.2"
   },
   "proxy": "https://api.douban.com/v2/"
